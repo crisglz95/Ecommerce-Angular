@@ -1,11 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.tarjeta {
+/* .tarjeta {
     width: 100%;
     height: 65vh;
     display: flex;
@@ -57,17 +50,4 @@
     width: 80%;
     display: block;
     transition: 0.5s;
-}
-
-.fadeIn {
-    animation: animation .5s forwards;
-}
-
-@keyframes animation {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
+} */

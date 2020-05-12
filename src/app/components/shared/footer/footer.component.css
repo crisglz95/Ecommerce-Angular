@@ -1,0 +1,44 @@
+.titulo {
+    font-size: 30px;
+}
+
+.cuadroGris {
+    background: #e4e4e4;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.cuadroGris * {
+    padding: 0;
+}
+
+.cuadroGris>div {
+    height: 60%;
+    width: 20%;
+    color: #ababab;
+}
+
+.cuadroGris div:nth-child(2),
+.cuadroGris div:nth-child(3),
+.cuadroGris div:nth-child(4) {
+    border-left: 2px solid #ababab;
+}
+
+.cuadroGris li {
+    list-style-type: none;
+}
+
+.cuadroGris>div>ul {
+    padding-left: 15px;
+}
+
+.cuadroGris>div>ul>li>p {
+    font-size: 18px;
+}
+
+.cuadroGris>div>ul>li {
+    font-size: 15px;
+}

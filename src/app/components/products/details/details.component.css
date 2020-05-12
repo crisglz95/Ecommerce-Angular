@@ -1,0 +1,22 @@
+.navegacion {
+    margin: 0;
+    padding: 25px;
+}
+
+.productos {
+    width: 100%;
+    height: 75vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalles {
+    width: 75%;
+}
+
+.cant {
+    width: 15%;
+}

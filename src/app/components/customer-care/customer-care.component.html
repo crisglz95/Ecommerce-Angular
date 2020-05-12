@@ -1,0 +1,38 @@
+<div class="fadeIn">
+    <div class="contact">
+        <h3 class="mb-4">CUSTOMER CARE</h3>
+        <div class="info">
+            Have any questions or concerns ? We’re always ready to help! Call <br> us at <span>123-456-7890</span> or send us an email at <span>info@mysite.com</span>
+        </div>
+        <div class="formulario">
+            <div class="columna1">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Subject">
+            </div>
+            <div class="columna2">
+                <textarea name="" id=""></textarea>
+            </div>
+        </div>
+        <div class="boton">Submit</div>
+
+    </div>
+
+    <div class="faq">FAQ</div>
+
+    <div class="row mb-5">
+        <div class="col-6">
+            <div *ngFor="let info of infoFaq1">
+                <div class="titulo">{{info.titulo}}</div>
+                <div class="texto">{{info.texto}}</div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div *ngFor="let info of infoFaq1">
+                <div class="titulo">{{info.titulo}}</div>
+                <div class="texto">{{info.texto}}</div>
+            </div>
+        </div>
+    </div>
+
+</div>

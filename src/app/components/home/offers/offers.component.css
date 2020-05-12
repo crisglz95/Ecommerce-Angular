@@ -1,0 +1,13 @@
+.offers {
+    width: 100%;
+    height: 80vh;
+    background: #242323;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offers img {
+    width: 35%;
+    height: 80%;
+}
